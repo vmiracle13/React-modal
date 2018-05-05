@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.start-btn {
+  background-color: #00bcd4;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  height: 36px;
+}
+
+.delete-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.unit {
+  display: flex;
+  width: 485px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dialog-block {
+  width: 540px;
+  margin: 0 auto;
+}
+
+.input-number {
+  width: 40px;
+  border: none;
+  padding: 10px 0 7px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.header {
+  margin-bottom: 20px;
+}
