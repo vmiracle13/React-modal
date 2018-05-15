@@ -11,3 +11,9 @@ Requirements:
 -	Need to use http://www.material-ui.com/ UI Kit as a core of UI elements.
 -	All UI Elements should use Material Design
 -	Component should be demonstrated uses https://github.com/storybooks/react-storybook
+
+To get the application working in the development mode it is needed to perform the command 'npm run start' in the console.
+The application will be available at localhost:3000.
+
+To get the storybook working it is required to perform the command 'npm run storybook' in the console.
+The storybook application will be available at localhost:9001.
